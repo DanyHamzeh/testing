@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+.First-process {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  margin-bottom: 1px;
+
+  color: #000000;
+}
+.Second-process {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+
+  color: #000000;
+}
+.Third-process {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 32px;
+
+  color: #000000;
+}
+.button-Process {
+  width: 157px;
+  height: 44px;
+  left: 208px;
+  top: 430px;
+  border-color: #1c93c1;
+  background: #1c93c1;
+  margin-bottom: 203px;
+}
+.inside-Process {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.blue-text {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.78px;
+  position: absolute;
+  margin: -81px 118px;
+  color: #000000;
+}
+.alone-text {
+  font-family: Inter;
+  font-size: 36px;
+  line-height: 43.57px;
+  margin-left: 15%;
+
+  /* margin: 105px; */
+}
+.big-blue-text {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.78px;
+  margin: -235px 143px 19px 191px;
+}
+.big-blue-paragraph {
+  margin: 36px 38px 123px 37px;
+}
+.right-now-text {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 104px;
+}
+.first1-paragraph {
+  width: 256px;
+  height: 35px;
+  left: 182px;
+  top: 2579px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: -30px;
+
+  color: #000000;
+}
+.second1-paragraph {
+  width: 273px;
+  height: 57px;
+  left: 176px;
+  top: 2630px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  margin-left: -57px;
+}
+
+.first2-paragraph {
+  width: 256px;
+  height: 35px;
+  left: 592px;
+  top: 2579px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin-left: -114px;
+}
+.second2-paragraph {
+  width: 273px;
+  height: 57px;
+  left: 176px;
+  top: 2630px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  margin-left: -118px;
+  margin-bottom: 28px;
+}
+.right-button1 {
+  width: 240px;
+  height: 44px;
+  left: 600px;
+  top: 2714px;
+  background: #1c93c1;
+  border-color: #1c93c1;
+  margin-left: -108px;
+}
+.btn-color1 {
+  color: white;
+}
+
+.first3-paragraph {
+  width: 256px;
+  height: 35px;
+  left: 182px;
+  top: 2579px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: -106px;
+  color: #000000;
+}
+.second3-paragraph {
+  width: 273px;
+  height: 57px;
+  left: 176px;
+  top: 2630px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  margin-left: -118px;
+  margin-bottom: 28px;
+}
+.Our_process_word {
+  margin: 99px 116px 119px 118px;
+  height: 21px;
+  width: 261px;
+  left: 118px;
+  top: 99px;
+  border-radius: nullpx;
+  text-decoration: underline;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+
+@media all and (max-width: 767px) {
+  .button-Process {
+    margin-left: 100px;
+  }
+  .right-now-text {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .alone-text {
+    margin-left: -38px;
+  }
+  .big-blue-text {
+    margin-left: 142px;
+  }
+
+  .Our_process_word {
+    margin: 99px 116px 119px 77px;
+  }
+  .right-button1 {
+    margin-left: -394px;
+  }
+}

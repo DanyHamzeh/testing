@@ -1,0 +1,41 @@
+.page_container {
+  padding: 0 214px;
+  margin-bottom: 100px;
+}
+.all_rights {
+  display: flex;
+  align-items: center;
+}
+.Image1 {
+  margin-left: 62px;
+}
+.second_right {
+  padding: 0 254px;
+}
+.last_btn_mobile {
+  margin-top: 50px;
+}
+.button_both {
+  margin-left: 492px;
+}
+@media all and (max-width: 767px) {
+  .page_container {
+    padding: 0 0;
+  }
+  .all_rights {
+    display: flex;
+    flex-direction: column;
+  }
+  .side_mobile {
+    margin-left: 132px;
+  }
+  .first_mobile {
+    margin-left: 65px;
+  }
+  .third_mobile {
+    margin-left: 132px;
+  }
+  .last_btn_mobile {
+    margin-left: 20px;
+  }
+}

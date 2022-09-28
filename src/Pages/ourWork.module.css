@@ -1,0 +1,27 @@
+.First_3Boxes {
+  display: flex;
+  justify-content: center;
+}
+.Second_3Boxes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.Committed {
+  justify-content: center;
+}
+.first_2boxes {
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+}
+.second_2boxes {
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+}
+.third_2boxes {
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+}

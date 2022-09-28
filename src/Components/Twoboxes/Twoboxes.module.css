@@ -1,0 +1,32 @@
+.page_container {
+  padding: 0 207px;
+  margin-bottom: 100px;
+}
+
+.first_box {
+  background-color: #009adc;
+}
+.second_box {
+  background-color: #009adc;
+  margin-left: 10px;
+}
+.all_2boxes {
+  display: flex;
+}
+@media all and (max-width: 767px) {
+  .page_container {
+    padding: 0 0;
+  }
+  .all_2boxes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .second_box {
+    margin-bottom: -110px;
+    margin-left: 0;
+  }
+  .first_box {
+    margin-bottom: 10px;
+  }
+}

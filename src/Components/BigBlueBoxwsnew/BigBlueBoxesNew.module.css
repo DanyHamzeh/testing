@@ -1,0 +1,22 @@
+.boxes {
+  /* height: fit-content; */
+  width: 326px;
+  background-color: #009adc;
+  margin-bottom: 5px;
+  position: relative;
+  margin: 10px;
+  text-align: center;
+}
+
+.image {
+  position: relative;
+  top: 30px;
+}
+.title {
+  margin: 10%;
+  position: relative;
+  bottom: -15px;
+}
+/* .Image_paragraph {
+  justify-content: center;
+} */
