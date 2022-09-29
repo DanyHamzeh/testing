@@ -1,11 +1,11 @@
 .box1 {
-  /* height: fit-content; */
   width: 326px;
   background-color: #009adc;
   margin-bottom: 5px;
   position: relative;
   margin: 10px;
 }
+
 .circle1 {
   background-color: white;
   border-radius: 50%;
@@ -13,24 +13,31 @@
   height: 90px;
   padding: 10px;
   margin-left: 10px;
-  background-image: url("../../Photos/ux-ui.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 50px;
 }
 .Image_Text {
   display: flex;
   flex-direction: column;
 }
-
-.Image {
-  position: absolute;
-  top: 25px;
-  left: 35px;
+.Text_Image {
+  display: flex;
+  align-items: center;
+  padding: 9px;
 }
-/* .text {
+.Image {
   position: relative;
-  left: 129px;
-  bottom: 66px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text {
+  margin-left: 10px;
+}
+.Image_our {
   width: fit-content;
-} */
+  margin: auto;
+}
+@media all and (max-width: 767px) {
+  .box1 {
+    width: 326px;
+  }
+}

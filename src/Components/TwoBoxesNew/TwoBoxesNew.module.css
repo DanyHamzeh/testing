@@ -1,0 +1,20 @@
+.Boxes {
+  height: 239px;
+  width: 490px;
+  background-color: #009adc;
+  margin-left: 5px;
+}
+.word {
+  line-height: 239px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+@media all and (max-width: 767px) {
+  .Boxes {
+    height: 239px;
+    width: 490px;
+    background-color: #009adc;
+    margin: 0 -60px;
+  }
+}

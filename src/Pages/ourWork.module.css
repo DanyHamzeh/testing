@@ -1,27 +1,56 @@
-.First_3Boxes {
+/* .First_3Boxes {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .Second_3Boxes {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  flex-wrap: wrap;
+} */
+.all_Boxes {
+  width: 83%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 .Committed {
   justify-content: center;
 }
+.All_boxes_Big {
+  width: fit-content;
+  margin: auto;
+}
+
 .first_2boxes {
   display: flex;
-  justify-content: center;
-  margin-left: 5px;
+  flex-wrap: wrap;
+  width: 83%;
+  margin: auto;
 }
+
 .second_2boxes {
   display: flex;
-  justify-content: center;
-  margin-left: 5px;
+  flex-wrap: wrap;
+  width: 83%;
+  margin: auto;
 }
 .third_2boxes {
   display: flex;
-  justify-content: center;
-  margin-left: 5px;
+  flex-wrap: wrap;
+  width: 83%;
+  margin: auto;
+}
+.right_now {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.twoBoxes {
+  display: flex;
+  width: 93%;
+  /* margin: auto; */
+  flex-wrap: wrap;
+  margin-bottom: 50px;
 }

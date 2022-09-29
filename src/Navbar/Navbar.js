@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import image from "../Photos/Moobitek logo.png";
 import classes from "./Navbar.module.css";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
-  //   const [click, setclick] = useState(false);
-  //   const handleClick = () => setclick(!click);
+  const [click, setclick] = useState(false);
+  const handleClick = () => setclick(!click);
 
   return (
     <header className={classes.header}>
@@ -13,7 +14,7 @@ function Navbar() {
         <img src={image} className={classes.logo} alt="" />
       </div>
       <nav>
-        <ul className={classes.nav_menu}>
+        <ul className={click ? classes.nav_menu.active : classes.nav_menu}>
           <li>
             <Link to="/">OURWORK</Link>
           </li>
@@ -28,6 +29,21 @@ function Navbar() {
           </li>
         </ul>
       </nav>
+      <div className={classes.hamburger} onClick={handleClick}>
+        {click ? (
+          <FaTimes
+            className={classes.FaTimes}
+            size={20}
+            style={{ color: "#000" }}
+          />
+        ) : (
+          <FaBars
+            size={20}
+            className={classes.FaBars}
+            style={{ color: "#000" }}
+          />
+        )}
+      </div>
     </header>
   );
 }

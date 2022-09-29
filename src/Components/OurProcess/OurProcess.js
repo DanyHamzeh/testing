@@ -16,7 +16,7 @@ function OurProcess() {
           adding our passion,
           <br /> dedication, involvement, and knowledge.
         </p>
-        <div>
+        <div className={classes.button_our}>
           <button className="button-Process">OUR PROCESS</button>
         </div>
       </div>

@@ -1,45 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 .First-process {
   font-family: Inter;
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
-  align-items: center;
-  margin-bottom: 1px;
-
   color: #000000;
 }
+
 .Second-process {
   font-family: Inter;
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 40px;
-
+  font-size: 20px;
   color: #000000;
 }
 .Third-process {
   font-family: Inter;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 25px;
-  margin-bottom: 32px;
-
+  font-size: 15px;
   color: #000000;
 }
 .button-Process {
   width: 157px;
   height: 44px;
-  left: 208px;
-  top: 430px;
+  width: fit-content;
+  margin: auto;
   border-color: #1c93c1;
   background: #1c93c1;
-  margin-bottom: 203px;
 }
 .inside-Process {
   font-family: Inter;
@@ -64,12 +48,13 @@
 .alone-text {
   font-family: Inter;
   font-size: 36px;
-  line-height: 43.57px;
-  margin-left: 15%;
-
-  /* margin: 105px; */
+  transform: translate(0%, -30%);
+  position: relative;
+  top: 50%;
+  width: fit-content;
+  margin: auto;
 }
-.big-blue-text {
+/* .big-blue-text {
   font-family: Inter;
   font-weight: 500;
   font-size: 18px;
@@ -78,38 +63,23 @@
 }
 .big-blue-paragraph {
   margin: 36px 38px 123px 37px;
-}
+} */
 .right-now-text {
-  font-family: Inter;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 44px;
-  letter-spacing: 0em;
-  text-align: center;
-  margin-left: 104px;
-}
-.first1-paragraph {
-  width: 256px;
-  height: 35px;
-  left: 182px;
-  top: 2579px;
   font-family: Inter;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
   text-align: center;
-  margin-left: -30px;
-
   color: #000000;
 }
+.first1-paragraph {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+  width: fit-content;
+  margin: auto;
+}
 .second1-paragraph {
-  width: 273px;
-  height: 57px;
-  left: 176px;
-  top: 2630px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 300;
@@ -117,39 +87,23 @@
   line-height: 25px;
   text-align: center;
   color: #000000;
-  margin-left: -57px;
 }
 
 .first2-paragraph {
-  width: 256px;
-  height: 35px;
-  left: 592px;
-  top: 2579px;
   font-family: Inter;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
   text-align: center;
   color: #000000;
-  margin-left: -114px;
 }
 .second2-paragraph {
-  width: 273px;
-  height: 57px;
-  left: 176px;
-  top: 2630px;
   font-family: Inter;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 25px;
   text-align: center;
   color: #000000;
-  margin-left: -118px;
-  margin-bottom: 28px;
 }
 .right-button1 {
   width: 240px;
@@ -165,35 +119,20 @@
 }
 
 .first3-paragraph {
-  width: 256px;
-  height: 35px;
-  left: 182px;
-  top: 2579px;
   font-family: Inter;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
   text-align: center;
-  margin-left: -106px;
   color: #000000;
 }
 .second3-paragraph {
-  width: 273px;
-  height: 57px;
-  left: 176px;
-  top: 2630px;
   font-family: Inter;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 25px;
   text-align: center;
   color: #000000;
-  margin-left: -118px;
-  margin-bottom: 28px;
 }
 .Our_process_word {
   margin: 99px 116px 119px 118px;
@@ -213,8 +152,14 @@
 }
 
 @media all and (max-width: 767px) {
+  .alone-text {
+    font-family: Inter;
+    font-size: 36px;
+    padding: 10px;
+  }
   .button-Process {
-    margin-left: 100px;
+    width: fit-content;
+    margin: auto;
   }
   .right-now-text {
     font-family: Inter;
@@ -226,9 +171,6 @@
     margin-left: 30px;
   }
 
-  .alone-text {
-    margin-left: -38px;
-  }
   .big-blue-text {
     margin-left: 142px;
   }
@@ -237,6 +179,6 @@
     margin: 99px 116px 119px 77px;
   }
   .right-button1 {
-    margin-left: -394px;
+    margin-left: -427px;
   }
 }

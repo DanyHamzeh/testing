@@ -2,34 +2,38 @@
   background-image: url("../Photos/Map.png");
   color: white;
   background-color: #20262b;
-  padding-top: 3em;
+  /* padding-top: 3em; */
   position: relative;
-  bottom: 0;
+  /* bottom: 0; */
   width: 100%;
+  margin: auto;
   padding-bottom: 50%;
   background-repeat: no-repeat;
   background-position: center;
+  /* background-size: 25px; */
 }
 .first_text {
+  font-size: x-large;
   position: absolute;
   right: 594px;
-  top: 66px;
+  top: 40px;
 }
 .second_text {
-  left: 582px;
+  /* left: 582px; */
   position: relative;
-  bottom: -32px;
+  /* bottom: -32px; */
 }
 
 .btn {
   width: 157px;
   height: 44px;
-  top: 316px;
-  left: 202px;
+  top: 69px;
+  left: 536px;
   background-color: #1c93c1;
   margin-top: 20px;
   color: white;
   border-color: #1c93c1;
+  position: relative;
 }
 .in {
   font-family: "Inter";
@@ -47,6 +51,9 @@
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  position: absolute;
+  right: 50px;
+  bottom: 186px;
 }
 
 .main_footer li {
@@ -58,9 +65,7 @@
   text-decoration: none;
   color: white;
 }
-.copy_text {
-  position: absolute;
-}
+
 .low_footer {
   position: absolute;
   right: 50px;
@@ -71,16 +76,17 @@
 }
 .copy_text {
   position: relative;
-  left: 291px;
+  left: -49px;
+  top: -192px;
 }
 .logo {
   position: absolute;
   right: 900px;
-  top: 20px;
+  bottom: 241px;
 }
 @media all and (max-width: 767px) {
   .second_text {
-    left: 150px;
+    left: -370px;
     position: relative;
     bottom: 0;
   }
@@ -90,12 +96,24 @@
   }
   .first_text {
     position: absolute;
-    right: 161px;
+    right: 93px;
     top: 34px;
   }
   .logo {
     position: absolute;
-    right: 100px;
-    top: 103px;
+    right: 132px;
+    top: 6px;
+  }
+  .copy_text {
+    position: relative;
+    left: 6px;
+    top: 57px;
+  }
+  .main_footer ul {
+    list-style: none;
+
+    position: absolute;
+    right: -4px;
+    bottom: 154px;
   }
 }

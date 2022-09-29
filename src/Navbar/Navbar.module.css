@@ -8,6 +8,18 @@
   height: 0%;
   padding-bottom: 156px;
 }
+.nav_menu {
+  display: flex;
+}
+
+.nav_menu li {
+  padding: 0 1rem;
+}
+
+.nav_menu a {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
 .name {
   font-size: large;
 }
@@ -102,5 +114,14 @@
   }
   .FaBars {
     margin-left: 184px;
+  }
+  .header ul {
+    list-style: none;
+    margin: 0;
+    align-items: baseline;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 20px;
   }
 }

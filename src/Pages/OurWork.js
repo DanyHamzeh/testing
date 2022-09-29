@@ -4,7 +4,7 @@ import BoxesNew from "../Components/boxesNew/BoxesNew";
 // import Boxes from "../Components/Boxes/Boxes";
 import Committed from "../Components/Commited/Commited";
 import OurProcess from "../Components/OurProcess/OurProcess";
-// import RightNow from "../Components/RightNow/RightNow";
+import RightNow from "../Components/RightNow/RightNow";
 // import TwoBoxes from "../Components/Twoboxes/Twoboxes";
 import classes from "../Pages/ourWork.module.css";
 import Image1 from "../Photos/10.png";
@@ -20,25 +20,23 @@ import FirstImage3 from "../Photos/Mobile-development 1 (1).png";
 import FirstImage4 from "../Photos/artificial-inteligence 1.png";
 import FirstImage5 from "../Photos/project-management 1.png";
 import FirstImage6 from "../Photos/IT-consulting 1.png";
+import TwoBoxesNew from "../Components/TwoBoxesNew/TwoBoxesNew";
+// import RightNowNew from "../Components/RightNowNew/RightNowNew";
+// import photo1 from "../Photos/1.png";
+// import photo2 from "../Photos/2.png";
+// import photo3 from "../Photos/3.png";
 
 function OurWork(props) {
   return (
     <div className={classes.Domain_Container}>
       <OurProcess />
       <div className={classes.all_Boxes}>
-        <div className={classes.First_3Boxes}>
-          <BoxesNew title="Years of experience" order="first" />
-          <BoxesNew title={"Technical Consultancy"} order={"first"} />
-          <BoxesNew title={"UI/UX Approach"} order={"first"} />
-        </div>
-        <div className={classes.Second_3Boxes}>
-          <BoxesNew
-            title={"End-to-end Software development"}
-            order={"second"}
-          />
-          <BoxesNew FirstImage={Image5} title={"A players"} order={"second"} />
-          <BoxesNew title={"Creative engineering mindset"} order={"second"} />
-        </div>
+        <BoxesNew Images={Image1} title="Years of experience" />
+        <BoxesNew Images={Image2} title={"Technical Consultancy"} />
+        <BoxesNew Images={Image3} title={"UI/UX Approach"} />
+        <BoxesNew Images={Image4} title={"End-to-end Software development"} />
+        <BoxesNew Images={Image5} title={"A players"} />
+        <BoxesNew Images={Image6} title={"Creative engineering mindset"} />
       </div>
       <Committed className={classes.Committed} />
       <div className={classes.first_2boxes}>
@@ -88,10 +86,36 @@ function OurWork(props) {
             "Many products rise, only a few thrive on the market. As a tech partner, we will lead the line for you, making sure that your product is a front-runner."
           }
         />
+        {/* </div>
+      <div className={classes.right_now}>
+        <RightNowNew
+          photos={photo1}
+          description={"Start from scratch"}
+          paragraph={"From idea to market ready we've got you covered."}
+        />
+        <RightNowNew
+          title={"Where are you right now?"}
+          photos={photo2}
+          description={"Ready for the next step"}
+          paragraph={
+            "In search of a team to help you get your product to the next level? We are here for you."
+          }
+        />
+        <RightNowNew
+          photos={photo3}
+          description={"Subtle improvements"}
+          paragraph={
+            "Need to refine or add new features to your product? We can ease the process."
+          }
+        />
+      </div> */}
+        <RightNow />
+        <div className={classes.twoBoxes}>
+          <TwoBoxesNew title={"OUR PROCESS"} />
+          <TwoBoxesNew title={"OUR WORK"} />
+        </div>
+        {/* <TwoBoxes /> */}
       </div>
-
-      {/* <RightNow /> */}
-      {/* <TwoBoxes /> */}
     </div>
   );
 }

@@ -3,6 +3,9 @@
 }
 .picture_process {
   display: flex;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1px;
 }
 .Image {
   display: inline;
@@ -11,29 +14,24 @@
 .Page_container {
   padding: 0 207px;
 }
+/* .button_our {
+  width: fit-content;
+  margin: auto;
+} */
 
 @media all and (max-width: 767px) {
-  .Page_container {
-    padding: 0 0px;
-  }
   .picture_process {
     display: block;
   }
-  .Image {
-    margin-top: -150px;
-    margin-bottom: 100px;
-  }
 
-  /* .Second-process {
-    font-family: "Inter";
+  .Second-process {
+    font-family: Inter;
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 44px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-
+    font-size: 20px;
     color: #000000;
+  }
+  /* .Image {
+    width: 100%;
   } */
 }
