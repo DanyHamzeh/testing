@@ -39,7 +39,7 @@ function OurWork(props) {
         <BoxesNew Images={Image6} title={"Creative engineering mindset"} />
       </div>
       <Committed className={classes.Committed} />
-      <div className={classes.first_2boxes}>
+      <div className={classes.two_boxes}>
         <BigBlueBoxesNew
           image={FirstImage1}
           title={"UX/UI Design"}
@@ -55,7 +55,7 @@ function OurWork(props) {
           }
         />
       </div>
-      <div className={classes.second_2boxes}>
+      <div className={classes.two_boxes}>
         <BigBlueBoxesNew
           image={FirstImage3}
           title={"Mobile Development"}
@@ -71,7 +71,7 @@ function OurWork(props) {
           }
         />
       </div>
-      <div className={classes.third_2boxes}>
+      <div className={classes.two_boxes}>
         <BigBlueBoxesNew
           image={FirstImage5}
           title={"Project Management and QA"}
