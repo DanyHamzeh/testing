@@ -9,6 +9,9 @@
   margin-bottom: 50px;
   flex-wrap: wrap;
 } */
+.right_now {
+  display: flex;
+}
 .all_Boxes {
   width: 83%;
   margin: auto;

@@ -86,35 +86,34 @@ function OurWork(props) {
             "Many products rise, only a few thrive on the market. As a tech partner, we will lead the line for you, making sure that your product is a front-runner."
           }
         />
-        {/* </div>
-      <div className={classes.right_now}>
-        <RightNowNew
-          photos={photo1}
-          description={"Start from scratch"}
-          paragraph={"From idea to market ready we've got you covered."}
-        />
-        <RightNowNew
-          title={"Where are you right now?"}
-          photos={photo2}
-          description={"Ready for the next step"}
-          paragraph={
-            "In search of a team to help you get your product to the next level? We are here for you."
-          }
-        />
-        <RightNowNew
-          photos={photo3}
-          description={"Subtle improvements"}
-          paragraph={
-            "Need to refine or add new features to your product? We can ease the process."
-          }
-        />
-      </div> */}
+        {/* <div className={classes.right_now}>
+          <RightNowNew
+            photos={1}
+            description={"Start from scratch"}
+            paragraph={"From idea to market ready we've got you covered."}
+          />
+          <RightNowNew
+            title={"Where are you right now?"}
+            photos={2}
+            description={"Ready for the next step"}
+            paragraph={
+              "In search of a team to help you get your product to the next level? We are here for you."
+            }
+          />
+          <RightNowNew
+            photos={3}
+            description={"Subtle improvements"}
+            paragraph={
+              "Need to refine or add new features to your product? We can ease the process."
+            }
+          />
+        </div> */}
         <RightNow />
         <div className={classes.twoBoxes}>
           <TwoBoxesNew title={"OUR PROCESS"} />
           <TwoBoxesNew title={"OUR WORK"} />
         </div>
-        {/* <TwoBoxes /> */}
+        {/* <TwoBoxes />  */}
       </div>
     </div>
   );

@@ -140,7 +140,7 @@
   width: 261px;
   left: 118px;
   top: 99px;
-  border-radius: nullpx;
+  border-radius: null;
   text-decoration: underline;
   font-family: Inter;
   font-size: 18px;
@@ -179,6 +179,7 @@
     margin: 99px 116px 119px 77px;
   }
   .right-button1 {
-    margin-left: -427px;
+    width: fit-content;
+    margin: auto;
   }
 }

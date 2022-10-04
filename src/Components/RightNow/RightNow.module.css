@@ -1,5 +1,5 @@
 .page_container {
-  width: 80%;
+  /* width: 80%; */
   margin: auto;
   margin-bottom: 80px;
 }
@@ -16,6 +16,13 @@
 .all_rights {
   display: flex;
   justify-content: space-around;
+}
+/* .side_mobile {
+  width: 120%;
+} */
+.third_mobile {
+  width: 25%;
+  margin: auto;
 }
 /* .all_rights {
   display: flex;
@@ -41,7 +48,7 @@
     display: flex;
     flex-direction: column;
   }
-  .side_mobile {
+  /* .side_mobile {
     margin-left: 132px;
   }
   .first_mobile {
@@ -49,8 +56,8 @@
   }
   .third_mobile {
     margin-left: 132px;
-  }
-  .last_btn_mobile {
+  } */
+  /* .last_btn_mobile {
     margin-left: 20px;
-  }
+  } */
 }

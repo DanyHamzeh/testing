@@ -6,7 +6,7 @@ function RightNowNew(props) {
     <div>
       <h2>{props.title}</h2>
       <div className={classes.all_right}>
-        <img src={props.photos} alt="" className={classes.image} />
+        <p className={classes.Numbers}>{props.photos}</p>
         <h1 className={classes.description}>{props.description}</h1>
         <p className={classes.paragraph}>{props.paragraph}</p>
       </div>
